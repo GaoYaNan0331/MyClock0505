@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                xmlns:first_customer="http://schemas.android.com/apk/res-auto">
+<com.example.administrator.sizeutil.MyFirstCustomerView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    first_customer:text="1234"
+    first_customer:textColor="@color/colorPrimaryDark"
+    first_customer:textSize="@dimen/activity_horizontal_margin"/>
+</RelativeLayout>
